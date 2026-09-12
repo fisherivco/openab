@@ -2,6 +2,17 @@
 
 You are contributing to OpenAB, a lightweight Rust-based ACP harness bridging Discord, Slack, and webhook platforms to coding CLIs over stdio JSON-RPC.
 
+## Allen Fork Overlay
+
+This fork inherits the upstream contributor guide below; do not duplicate or
+rewrite upstream engineering rules unless a fork-specific change requires it.
+For state owned by `fisherivco/openab`, GitHub repository state is the durable
+source of truth. Local filesystem and Obsidian surfaces are downstream
+working-copy/projection surfaces; their absence does not block otherwise
+authorized GitHub work unless a task-specific rule genuinely requires that
+local capability. Pending projection/reconcile debt belongs in one owning
+GitHub Issue, not a parallel runtime ledger or control plane.
+
 ## Architecture
 
 ```
